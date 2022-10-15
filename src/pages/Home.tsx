@@ -5,7 +5,7 @@ import {CircularProgressbar, buildStyles} from "react-circular-progressbar"
 import "react-circular-progressbar/dist/styles.css"
 import Menu from "../components/Menu"
 import { generateID } from '../utils/utils';
-
+import {Link} from 'react-router-dom'
 const messages = [
   {
     sender:"Yash Giri",
@@ -84,18 +84,25 @@ const Home: React.FC = () => (
           </IonToolbar>
         </IonCardHeader>
         <IonCardContent>
+          <Link to={'/home'}>
             <IonChip>
               <IonIcon icon={home}></IonIcon>
               <IonLabel>Home</IonLabel>
             </IonChip>
+
+          </Link>
+          <Link to={'/todolist'}>
             <IonChip>
               <IonIcon icon={listOutline}></IonIcon>
               <IonLabel>Todos</IonLabel>
             </IonChip>
+          </Link>
+          <Link to={'/chat'}>
             <IonChip>
               <IonIcon icon={notifications}></IonIcon>
               <IonLabel>Messages</IonLabel>
             </IonChip>
+          </Link>
           </IonCardContent>
         </IonCard>
     </IonContent>
