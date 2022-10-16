@@ -19,6 +19,7 @@ import "./Home.scss";
 import {
   appsOutline,
   home,
+  list,
   listOutline,
   notifications,
   person,
@@ -116,7 +117,7 @@ const Home: React.FC = () => (
           </Link>
           <Link to={"/todolist"}>
             <IonChip>
-              <IonIcon icon={listOutline}></IonIcon>
+              <IonIcon icon={list}></IonIcon>
               <IonLabel>Todos</IonLabel>
             </IonChip>
           </Link>
