@@ -20,7 +20,7 @@ for(var i=0;i<15;i++){
 
 const ChatPanel: React.FC = () => {
   return (
-    <IonPage className="chat-room">
+    <IonPage className="chat-panel">
       <IonHeader>
         <div className="progress">
           <CircularProgressbar

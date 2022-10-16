@@ -31,7 +31,7 @@ for (var i = 0; i < 20; i++) {
 
 const ChatRoom: React.FC = () => {
   return (
-    <IonPage>
+    <IonPage className="chat-room">
       <IonHeader>
         <IonToolbar>
           <IonTitle slot="start">Yash Giri</IonTitle>
@@ -59,7 +59,7 @@ const ChatRoom: React.FC = () => {
         <IonCard>
           <IonCardHeader>
             <IonToolbar>
-              <IonInput slot="start"></IonInput>
+              <IonInput></IonInput>
               <IonButton slot="end" fill="clear">
                 <IonIcon icon={play}></IonIcon>
               </IonButton>
