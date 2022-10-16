@@ -1,9 +1,7 @@
-import { IonPage } from "@ionic/react"
+import { IonPage } from "@ionic/react";
 
-const ChatRoom:React.FC = ()=>{
-    return(
-        <IonPage></IonPage>
-    )
-}
+const ChatRoom: React.FC = () => {
+  return <IonPage></IonPage>;
+};
 
-export default ChatRoom
+export default ChatRoom;
