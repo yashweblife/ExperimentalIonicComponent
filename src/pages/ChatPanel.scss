@@ -1,0 +1,22 @@
+.chat-room{
+    >ion-header{ 
+        min-height: 30vh;
+        >.progress{
+            width:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            >*{
+                width:200px;
+            }
+        }
+    }
+    >ion-content{
+        min-height: 50vh;
+        width:100%;
+        background: linear-gradient(0deg, #6731FF 0%, #F36BFF 100%);
+        border-top-left-radius: 5em;
+        border-top-right-radius: 5em;
+        box-shadow: 0 0 4em 1em rgba(244, 85, 255, 0.1); 
+    }
+}
